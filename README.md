@@ -4,7 +4,12 @@ I started playing around with Baywheels trip data out of a curiosity in what bik
 patterns look like in the San Francisco area. The source data are CSVs that describes every bikeshare trip taken within a given month. Lyft maintains this data here:
 https://www.lyft.com/bikes/bay-wheels/system-data
 
-One question I developed here is how does the number of bikes docked at any given station change over time. Which docking stations are "sources" or "sinks" that require regular rebalancing? I came up with this data visualization that shows net change in bikes docked over time, for the month of September 2019. See net_bikes.html within this repository for the final output.
+One question I developed here is how does the number of bikes docked at any given station change over time. Which docking stations are "sources" or "sinks" that require regular rebalancing? I came up with this data visualization that shows net change in bikes docked over time, for the month of September 2019. 
+
+Check out the final output here:
+https://yung-ethan.github.io/net_bikes.html
+
+You can also download net_bikes.html from within this repository. 
 
 This has also been a fun exercise in creating interactive plots using Bokeh. I am also considering Plotly as a plotting alternative.
 
