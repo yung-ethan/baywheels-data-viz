@@ -7,7 +7,7 @@ https://www.lyft.com/bikes/bay-wheels/system-data
 One question I developed here is how does the number of bikes docked at any given station change over time. Which docking stations are "sources" or "sinks" that require regular rebalancing? I came up with this data visualization that shows net change in bikes docked over time, for the month of September 2019. 
 
 Check out the final output here:
-https://yung-ethan.github.io/net_bikes.html
+https://yung-ethan.github.io/baywheels-data-viz/net_bikes.html
 
 You can also download net_bikes.html from within this repository. 
 
