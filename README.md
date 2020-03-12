@@ -1,17 +1,27 @@
 # Baywheels Trip Data Visualization
 
+![Bikeshare Inflow and Outflow by Hour](bikeshare_by_hour.png)
+
 I started playing around with Baywheels trip data out of a curiosity in what bikeshare usage 
 patterns look like in the San Francisco area. The source data are CSVs that describes every bikeshare trip taken within a given month. Lyft maintains this data here:
 https://www.lyft.com/bikes/bay-wheels/system-data
 
 One question I developed here is how does the number of bikes docked at any given station change over time. Which docking stations are "sources" or "sinks" that require regular rebalancing? I came up with this data visualization that shows net change in bikes docked over time, for the month of September 2019. 
 
-Check out the final output here:
+Here are some interactive maps I've produced using this data.
+
+Using Folium, a Python package for Leaflet:
+
+https://yung-ethan.github.io/baywheels-data-viz/bikeshare_by_hour.html
+
+https://yung-ethan.github.io/baywheels-data-viz/bikeshare_station_origin.html
+
+
+Using Bokeh:
+
 https://yung-ethan.github.io/baywheels-data-viz/net_bikes.html
 
-You can also download net_bikes.html from within this repository. 
-
-This has also been a fun exercise in creating interactive plots using Bokeh. I am also considering Plotly as a plotting alternative.
+You can also download the HTML files directly from this repository. 
 
 ## Installation Requirements
 - Python3
