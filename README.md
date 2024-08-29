@@ -25,7 +25,7 @@ You can also download the HTML files directly from this repository.
 
 ## Installation Requirements
 - Python3
-- pip 
+- pip
 - use pipenv to install dependencies from the Pipfile: https://pipenv.kennethreitz.org/en/latest/
     - if you choose not to use pipenv, then make sure you install the packages listed in that file
 - download and extract '201909-baywheels-tripdata.csv' to project directory from here:
