@@ -45,4 +45,4 @@ Simply run this to produce the data visualization in net_bikes.html:
     - min/max. net change in bikes docked
     - highlight stations of interest: e.g., the Caltrain dock
 - include a toggle to switch to total bikes departing + arriving
-- Try in Plotly 
+- Try in Plotly
